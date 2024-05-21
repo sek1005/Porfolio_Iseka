@@ -22,7 +22,7 @@ function Nav() {
       className="sm:container sm:mx-auto"
     >
       {/* Header */}
-      <div className="z-10 block max-w-screen-lg py-6 px-6 xl:max-w-screen-xl sm:flex sm:justify-between sm:items-center">
+      <div className="z-10 block max-w-screen-lg py-6 px-2 xl:max-w-screen-xl sm:flex sm:justify-between sm:items-center">
         {/* Header menu links and small screen hamburger menu */}
         <div className="flex items-center justify-between px-4 sm:px-0">
           <div>
@@ -79,11 +79,7 @@ function Nav() {
               A propos
             </Link>
           </div>
-          <div className="block mb-3 mt-5 text-2xl text-left  sm:mx-4 sm:py-2">
-            <Link to="/contact" aria-label="Contact">
-              Contact
-            </Link>
-          </div>
+
           <div className=" pt-3 border-t-2 sm:pt-0 sm:border-t-0 border-primary-light ">
             <div className="mx20 flex justify-around text-2xl">
               <Link target="_blank" to="http://www.linkedin.com/in/ines-sek">
@@ -113,13 +109,6 @@ function Nav() {
             aria-label="About Me"
           >
             <Link to="/about">A propos</Link>
-          </div>
-
-          <div
-            className="block hover:text-orange-200 mb-2 text-2xl font-medium text-left sm:mx-4 sm:py-2"
-            aria-label="Contact"
-          >
-            <Link to="/contact">Contact</Link>
           </div>
         </div>
 
