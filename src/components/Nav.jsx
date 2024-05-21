@@ -22,14 +22,14 @@ function Nav() {
       className="sm:container sm:mx-auto"
     >
       {/* Header */}
-      <div className="z-10 block max-w-screen-lg py-6 xl:max-w-screen-xl sm:flex sm:justify-between sm:items-center">
+      <div className="z-10 block max-w-screen-lg py-6 px-6 xl:max-w-screen-xl sm:flex sm:justify-between sm:items-center">
         {/* Header menu links and small screen hamburger menu */}
         <div className="flex items-center justify-between px-4 sm:px-0">
           <div>
             <Link to="/">
               <img
                 src={logo}
-                className="cursor-pointer w-36 rounded-full"
+                className="cursor-pointer w-36 rounded-3xl px-3"
                 alt="Logo du site"
                 width={150}
                 height={120}
