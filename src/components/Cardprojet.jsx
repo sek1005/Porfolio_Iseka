@@ -40,12 +40,8 @@ function Cardprojet ({ img, video, title, stack, link, git, description }) {
                 transition={{ duration: 0.5 }}
                 style={{ display: isFlipped ? 'flex' : 'none' }}
                 className="cardBack" >
-                <div>
-
-
-                </div>
                 <p className="description">{description}</p>
-                <div className="line"></div>
+               
                 <p> Technologies utilisées</p>
                 <ul className="stack">
                     {stack.map((oneStack, index) => (
