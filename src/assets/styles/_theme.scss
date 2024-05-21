@@ -1,0 +1,22 @@
+.active {
+    opacity: 0.6;
+}
+
+.line {
+    background: linear-gradient(to left, var(--secondary), var(--text-color) 25%, var(--text-color) 75%, var(--secondary));
+    width: 100%;
+    height: 2px;
+    margin: 0.8em auto;
+}
+
+.form-error {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+.feedbackGood {
+    text-align: center;
+    margin-bottom: 25px;
+}

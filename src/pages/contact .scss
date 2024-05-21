@@ -1,0 +1,121 @@
+.cadre_contact{
+  width: 50%;
+margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 3px solid var(--accent-color);
+  @media screen and (max-width: 1080px) {
+    width: 66%;
+}
+
+;
+
+@media screen and (max-width: 769px) {
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+    width: 85%;
+}
+
+@media screen and (max-width: 380px) {
+    width: 95%;
+}
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+
+  input,
+  textarea {
+      width: 75%;
+      margin: 1.5vh auto;
+      border-radius: 10px;
+      padding: 1%;
+      font-family: var(--font-family);
+      font-style: italic;
+      font-size: 18px;
+      color:var(--secondary);
+
+      @media screen and (max-width: 480px) {
+          width: 80%;
+      }
+
+      @media screen and (max-width: 480px) {
+          width: 90%;
+      }
+  }
+
+  textarea {
+      height: 20vh;
+  }
+
+  button {
+      cursor: pointer;
+      background-color: var(--accent-color);
+      padding: 1rem;
+      color: var(--secondary);
+      font-family: var(--font-family);
+      border: 2px solid var(--secondary);
+      border-radius: 15px;
+      transition: .3s all;
+      font-size: 18px;
+      margin: 25px auto 20px auto;
+      font-weight: 600;
+
+      &:hover {
+          background-color: var(--secondary);
+          color: var(--accent-color);
+          transform: scale(1.1);
+          border: 2px solid var(--accent-color);
+      }
+  }
+
+  .rules {
+      width: 75%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media screen and (max-width: 769px) {
+          width: 80%;
+      }
+
+      @media screen and (max-width: 480px) {
+          width: 90%;
+      }
+
+      p {
+          font-size: 01rem;
+          font-weight: 200;
+          text-align: justify;
+
+          @media screen and (max-width: 580px) {
+              font-size: 0.8rem;
+          }
+
+          @media screen and (max-width: 480px) {
+              font-size: 0.7rem;
+          }
+      }
+
+      input {
+          margin: 0;
+          width: 15%;
+          
+      }
+
+      ;
+  }
+
+}

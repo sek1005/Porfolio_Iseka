@@ -1,0 +1,205 @@
+.portrait {
+  width: 50%;
+margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 3px solid var(--accent-color);
+  transition: all .3s;
+
+  @media screen and (max-width: 1100px) {
+      width: 80%;
+      
+  }
+
+  @media screen and (max-width: 968px) {
+      width: 75%;
+  }
+
+  @media screen and (max-width: 768px) {
+      width: 85%;
+  }
+
+  @media screen and (max-width: 480px) {
+      width: 89%;
+  }
+
+  @media screen and (max-width: 380px) {
+      width: 87%;
+  }
+
+  .headerTitle {
+   
+      border-radius: 14px 14px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .imgPortrait {
+          width: 25%;
+          border-radius: 50vh;
+          border: 4px solid var(--accent-color);
+          margin-block: 20px;
+          align-self: flex-start;
+          margin-left: 10%;
+
+          @media screen and (max-width: 480px) {
+              width: 30%;
+          }
+      }
+
+      a {
+          margin-right: 10%;
+          border-radius: 10px;
+          cursor: pointer;
+
+          button {
+              cursor: pointer;
+              background-color: var(--accent-color);
+              padding: 1rem;
+              color: var(--secondary);
+              font-family: var(--font-family);
+              border: 2px solid var(--secondary);
+              border-radius: 15px;
+              transition: .3s all;
+              font-weight: 600;
+              font-size: 18px;
+
+              &:hover {
+                  background-color: var(--secondary);
+                  color: var(--accent-color);
+                  transform: scale(1.1);
+                  border: 2px solid var(--accent-color);
+              }
+
+              @media screen and (max-width: 480px) {
+                  padding: 0.5rem;
+                  font-size: 15px;
+              }
+          }
+      }
+  }
+
+
+  .title {
+      color: var(--secondary);
+      font-size: 2rem;
+      background-color: var(--accent-color);
+      border-radius: 0 0 5px 5px;
+      padding-block: 5px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      h1 {
+          @media screen and (max-width: 768px) {
+              font-size: 23px;
+          }
+
+          @media screen and (max-width: 480px) {
+              font-size: 20px;
+          }
+
+          @media screen and (max-width: 480px) {
+              font-size: 17px;
+          }
+
+          @media screen and (max-width: 380px) {
+              font-size: 16px;
+          }
+      }
+
+      .subtitle {
+          font-weight: 300;
+          font-style: italic;
+          font-size: 1rem;
+
+          @media screen and (max-width: 768px) {
+              font-size: 0.9rem;
+          }
+
+          @media screen and (max-width: 480px) {
+              font-size: 0.8rem;
+              font-weight: 700;
+          }
+
+          @media screen and (max-width: 380px) {
+              font-size: 0.7rem;
+          }
+      }
+  }
+
+  .description {
+      text-align: center;
+      width: 75%;
+      margin: 0 auto;
+      font-style: italic;
+      font-weight: 200;
+
+      @media screen and (max-width: 480px) {
+          width: 90%;
+      }
+
+      @media screen and (max-width: 420px) {
+          font-size: 15px;
+          width: 98%;
+      }
+
+  }
+
+  .skills {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 5% ;
+
+      @media screen and (max-width: 768px) {
+          flex-wrap: wrap;
+      }
+
+      .type {
+          width: 40%;
+
+          @media screen and (max-width: 768px) {
+              width: 75%;
+          }
+
+          .typeTitle {
+              text-align: center;
+              color: var(--accent-color);
+          }
+
+          .logo {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              align-items: center;
+              padding: 10px;
+              width: 100;
+
+              .containerLogo {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  i {
+                      font-size: 2rem;
+                  }
+
+                  p {
+                      font-style: 200;
+                  }
+              }
+
+
+          }
+
+      }
+  }
+}
