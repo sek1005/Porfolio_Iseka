@@ -18,8 +18,8 @@ function Projects() {
       git: "https://github.com/sek1005/NEOMUSE",
       link: "https://tella.video/neo-muse-7d2a",
       description:
-        "Projet Web pour une Galerie d’Art NeoMuse avec présentations des œuvres d'art et une interface administrateur",
-      stack: ["React", "Css", "NodeJs", "Express", "Git", "Trello", "MySql"],
+        "Galerie d’Art NeoMuse avec présentations d'œuvres, d'artistes et une interface administrateur",
+      stack: ["React","CSS3","Express","MySql"],
     },
     {
       img: advent,

@@ -4,9 +4,12 @@ import "./contact.scss";
 function Contact() {
   return (
     <section id="contact" className="containercontact">
-      <div>
-        <Link to="mailto:sephecya@gmail.com">
-          <button>CONTACTEZ -MOI</button>
+      <div className="text">
+          <p>Vous souhaitez me contacter</p>
+          </div>
+          <div>
+           <Link to="mailto:sephecya@gmail.com">
+          <button> Ecrivez -moi</button>
         </Link>
       </div>
     </section>
